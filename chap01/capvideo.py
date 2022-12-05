@@ -8,7 +8,7 @@ cv2.resizeWindow('video',640,480)
 # cap = cv2.VideoCapture(0)
 
 # 获取视频文件，从视频文件中读取视频帧
-cap = cv2.VideoCapture("/Users/xkzhai/OpenCV_Python/video/Beer.mp4")
+cap = cv2.VideoCapture("../OpenCV_Python/video/Beer.mp4")
 
 while True:
     # 从摄像头读取视频帧

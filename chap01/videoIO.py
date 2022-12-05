@@ -4,7 +4,7 @@ import cv2
 fourcc = cv2.VideoWriter_fourcc('D','I','V','X')
 
 # 创建输出文件
-vw = cv2.VideoWriter("/Users/xkzhai/OpenCV_Python/video/out.avi",fourcc,25,(1280,720)) 
+vw = cv2.VideoWriter("../OpenCV_Python/video/out.avi",fourcc,25,(1280,720)) 
 # 创建窗口
 cv2.namedWindow('video',cv2.WINDOW_NORMAL)
 cv2.resizeWindow('video',640 ,360)
